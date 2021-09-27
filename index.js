@@ -12,5 +12,6 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
+  newArr = tutorials.split(" ")
+  console.log(newArr);
 }
